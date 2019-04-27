@@ -1,0 +1,1294 @@
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../AP.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="AP.d_raw"  "../AP.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'AP.obj' failed
+"../AP.c", line 385: error #29: expected an expression
+"../AP.c", line 385: error #20: identifier "i" is undefined
+"../AP.c", line 381: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 383: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 384: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 386: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 452: error #29: expected an expression
+"../AP.c", line 452: error #20: identifier "i" is undefined
+"../AP.c", line 444: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 445: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 447: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 448: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 454: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 612: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 662: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 783: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 810: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 831: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+4 errors detected in the compilation of "../AP.c".
+gmake: *** [AP.obj] Error 1
+Building file: "../EUSCIA0.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="EUSCIA0.d_raw"  "../EUSCIA0.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'EUSCIA0.obj' failed
+"../EUSCIA0.c", line 51: fatal error #1965: cannot open source file "EUSCIA0.h"
+1 catastrophic error detected in the compilation of "../EUSCIA0.c".
+Compilation terminated.
+gmake: *** [EUSCIA0.obj] Error 1
+Building file: "../FlashProgram.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FlashProgram.d_raw"  "../FlashProgram.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'FlashProgram.obj' failed
+Building file: "../CortexM.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="CortexM.d_raw"  "../CortexM.c"
+"../FlashProgram.c", line 45: fatal error #1965: cannot open source file "FlashProgram.h"
+1 catastrophic error detected in the compilation of "../FlashProgram.c".
+Compilation terminated.
+gmake: *** [FlashProgram.obj] Error 1
+Finished building: "../CortexM.c"
+ 
+Building file: "../GPIO.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="GPIO.d_raw"  "../GPIO.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'GPIO.obj' failed
+"../GPIO.c", line 46: fatal error #1965: cannot open source file "GPIO.h"
+1 catastrophic error detected in the compilation of "../GPIO.c".
+Compilation terminated.
+gmake: *** [GPIO.obj] Error 1
+Building file: "../FIFO0.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FIFO0.d_raw"  "../FIFO0.c"
+Finished building: "../FIFO0.c"
+ 
+Building file: "../Bump.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Bump.d_raw"  "../Bump.c"
+"../Bump.c", line 77: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Bump.c", line 102: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../Bump.c"
+ 
+Building file: "../Clock.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Clock.d_raw"  "../Clock.c"
+Finished building: "../Clock.c"
+ 
+Building file: "../BumpInt.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="BumpInt.d_raw"  "../BumpInt.c"
+Finished building: "../BumpInt.c"
+ 
+Building file: "../ADC14.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ADC14.d_raw"  "../ADC14.c"
+"../ADC14.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 100: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 102: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 111: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 169: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 172: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../ADC14.c"
+ 
+Building file: "../Nokia5110.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Nokia5110.d_raw"  "../Nokia5110.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Nokia5110.obj' failed
+Building file: "../IRDistance.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="IRDistance.d_raw"  "../IRDistance.c"
+"../Nokia5110.c", line 80: fatal error #1965: cannot open source file "Nokia5110.h"
+1 catastrophic error detected in the compilation of "../Nokia5110.c".
+Compilation terminated.
+gmake: *** [Nokia5110.obj] Error 1
+Finished building: "../IRDistance.c"
+ 
+Building file: "../LaunchPad.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="LaunchPad.d_raw"  "../LaunchPad.c"
+Finished building: "../LaunchPad.c"
+ 
+Building file: "../LPF.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="LPF.d_raw"  "../LPF.c"
+Finished building: "../LPF.c"
+ 
+Building file: "../Motor.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Motor.d_raw"  "../Motor.c"
+Finished building: "../Motor.c"
+ 
+Building file: "../MotorSimple.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="MotorSimple.d_raw"  "../MotorSimple.c"
+Finished building: "../MotorSimple.c"
+ 
+Building file: "../Reflectance.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "../Reflectance.c"
+"../Reflectance.c", line 98: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Reflectance.c", line 137: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../Reflectance.c"
+ 
+Building file: "../PWM.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="PWM.d_raw"  "../PWM.c"
+Finished building: "../PWM.c"
+ 
+Building file: "../Tachometer.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Tachometer.d_raw"  "../Tachometer.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Tachometer.obj' failed
+"../Tachometer.c", line 60: fatal error #1965: cannot open source file "Tachometer.h"
+1 catastrophic error detected in the compilation of "../Tachometer.c".
+Compilation terminated.
+gmake: *** [Tachometer.obj] Error 1
+Building file: "../SysTick.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+"../SysTick.c", line 75: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../SysTick.c"
+ 
+Building file: "../SysTickInts.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTickInts.d_raw"  "../SysTickInts.c"
+Finished building: "../SysTickInts.c"
+ 
+Building file: "../TA3InputCapture.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TA3InputCapture.d_raw"  "../TA3InputCapture.c"
+Finished building: "../TA3InputCapture.c"
+ 
+Building file: "../TimerA1.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TimerA1.d_raw"  "../TimerA1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'TimerA1.obj' failed
+"../TimerA1.c", line 57: error #138: expression must be a modifiable lvalue
+1 error detected in the compilation of "../TimerA1.c".
+gmake: *** [TimerA1.obj] Error 1
+Building file: "../TA0InputCapture.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TA0InputCapture.d_raw"  "../TA0InputCapture.c"
+Finished building: "../TA0InputCapture.c"
+ 
+Building file: "../TA2InputCapture.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TA2InputCapture.d_raw"  "../TA2InputCapture.c"
+Finished building: "../TA2InputCapture.c"
+ 
+Building file: "../UART0.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="UART0.d_raw"  "../UART0.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'UART0.obj' failed
+"../UART0.c", line 52: fatal error #1965: cannot open source file "UART0.h"
+1 catastrophic error detected in the compilation of "../UART0.c".
+Compilation terminated.
+gmake: *** [UART0.obj] Error 1
+Building file: "../UART1.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="UART1.d_raw"  "../UART1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'UART1.obj' failed
+"../UART1.c", line 54: fatal error #1965: cannot open source file "UART1.h"
+1 catastrophic error detected in the compilation of "../UART1.c".
+Compilation terminated.
+gmake: *** [UART1.obj] Error 1
+Building file: "../Timer32.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer32.d_raw"  "../Timer32.c"
+Finished building: "../Timer32.c"
+ 
+Building file: "../TExaS.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TExaS.d_raw"  "../TExaS.c"
+"../TExaS.c", line 121: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 280: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 289: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 411: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 453: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../TExaS.c"
+ 
+Building file: "../incmain.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="incmain.d_raw"  "../incmain.c"
+Finished building: "../incmain.c"
+ 
+Building file: "../TimerA0.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TimerA0.d_raw"  "../TimerA0.c"
+Finished building: "../TimerA0.c"
+ 
+Building file: "../startup_msp432p401r_ccs.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_msp432p401r_ccs.d_raw"  "../startup_msp432p401r_ccs.c"
+Finished building: "../startup_msp432p401r_ccs.c"
+ 
+Building file: "../TimerA2.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TimerA2.d_raw"  "../TimerA2.c"
+Finished building: "../TimerA2.c"
+ 
+Building file: "../Ultrasound.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ultrasound.d_raw"  "../Ultrasound.c"
+Finished building: "../Ultrasound.c"
+ 
+Building file: "../system_msp432p401r.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+"../system_msp432p401r.c", line 156: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 189: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../system_msp432p401r.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./ADC14.obj" "./Bump.obj" "./BumpInt.obj" "./Clock.obj" "./CortexM.obj" "./FIFO0.obj" "./IRDistance.obj" "./LPF.obj" "./LaunchPad.obj" "./Motor.obj" "./MotorSimple.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./SysTickInts.obj" "./TA0InputCapture.obj" "./TA2InputCapture.obj" "./TA3InputCapture.obj" "./TExaS.obj" "./Timer32.obj" "./TimerA0.obj" "./TimerA2.obj" "./Ultrasound.obj" "./incmain.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+error #10056: symbol "Bump_Read" redefined: first defined in "./Bump.obj"; redefined in "./BumpInt.obj"
+error #10056: symbol "SysTick_Init" redefined: first defined in "./SysTick.obj"; redefined in "./SysTickInts.obj"
+error #10056: symbol "CaptureTask2" redefined: first defined in "./TA2InputCapture.obj"; redefined in "./TA3InputCapture.obj"
+error #10056: symbol "T32_INT1_IRQHandler" redefined: first defined in "./TExaS.obj"; redefined in "./Timer32.obj"
+error #10056: symbol "TA0_0_IRQHandler" redefined: first defined in "./TA0InputCapture.obj"; redefined in "./TimerA0.obj"
+error #10056: symbol "main" redefined: first defined in "./incmain.obj"; redefined in "./main.obj"
+error #10010: errors encountered during linking; "TI_RSLK_GUIDE.out" not built
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:167: recipe for target 'TI_RSLK_GUIDE.out' failed
+gmake[1]: *** [TI_RSLK_GUIDE.out] Error 1
+makefile:163: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/CortexM.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="CortexM.d_raw"  "F:/TI-RSLK_GUIDE/inc/CortexM.c"
+Finished building: "F:/TI-RSLK_GUIDE/inc/CortexM.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/LaunchPad.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="LaunchPad.d_raw"  "F:/TI-RSLK_GUIDE/inc/LaunchPad.c"
+Finished building: "F:/TI-RSLK_GUIDE/inc/LaunchPad.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/Bump.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Bump.d_raw"  "F:/TI-RSLK_GUIDE/inc/Bump.c"
+"F:/TI-RSLK_GUIDE/inc/Bump.c", line 77: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"F:/TI-RSLK_GUIDE/inc/Bump.c", line 102: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "F:/TI-RSLK_GUIDE/inc/Bump.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/Clock.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Clock.d_raw"  "F:/TI-RSLK_GUIDE/inc/Clock.c"
+Finished building: "F:/TI-RSLK_GUIDE/inc/Clock.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/Motor.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Motor.d_raw"  "F:/TI-RSLK_GUIDE/inc/Motor.c"
+Finished building: "F:/TI-RSLK_GUIDE/inc/Motor.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/PWM.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="PWM.d_raw"  "F:/TI-RSLK_GUIDE/inc/PWM.c"
+Finished building: "F:/TI-RSLK_GUIDE/inc/PWM.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/Reflectance.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "F:/TI-RSLK_GUIDE/inc/Reflectance.c"
+"F:/TI-RSLK_GUIDE/inc/Reflectance.c", line 98: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"F:/TI-RSLK_GUIDE/inc/Reflectance.c", line 137: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "F:/TI-RSLK_GUIDE/inc/Reflectance.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./main.obj"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section ".text" without a SECTIONS specification
+warning #10247-D: creating output section ".const" without a SECTIONS specification
+warning #10247-D: creating output section ".data" without a SECTIONS specification
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+warning #10247-D: creating output section ".bss" without a SECTIONS specification
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+warning #10247-D: creating output section ".cinit" without a SECTIONS specification
+warning #10247-D: creating output section ".stack" without a SECTIONS specification
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./main.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../startup_msp432p401r_ccs.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_msp432p401r_ccs.d_raw"  "../startup_msp432p401r_ccs.c"
+Finished building: "../startup_msp432p401r_ccs.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/SysTick.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "F:/TI-RSLK_GUIDE/inc/SysTick.c"
+"F:/TI-RSLK_GUIDE/inc/SysTick.c", line 75: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "F:/TI-RSLK_GUIDE/inc/SysTick.c"
+ 
+Building file: "../system_msp432p401r.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+"../system_msp432p401r.c", line 156: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 189: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../system_msp432p401r.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../startup_msp432p401r_ccs.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_msp432p401r_ccs.d_raw"  "../startup_msp432p401r_ccs.c"
+Finished building: "../startup_msp432p401r_ccs.c"
+ 
+Building file: "F:/TI-RSLK_GUIDE/inc/SysTick.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "F:/TI-RSLK_GUIDE/inc/SysTick.c"
+"F:/TI-RSLK_GUIDE/inc/SysTick.c", line 75: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "F:/TI-RSLK_GUIDE/inc/SysTick.c"
+ 
+Building file: "../system_msp432p401r.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+"../system_msp432p401r.c", line 156: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 189: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../system_msp432p401r.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'main.obj' failed
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 177: error #29: expected an expression
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 346: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 346: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 367: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 379: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 387: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 311: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 347: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 347: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 369: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 381: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 383: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 389: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project inc ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "inc.hex"  "inc.out" 
+DEL /F "ADC14.obj" "AP.obj" "Bump.obj" "Clock.obj" "CortexM.obj" "EUSCIA0.obj" "FIFO0.obj" "FlashProgram.obj" "GPIO.obj" "IRDistance.obj" "LPF.obj" "LaunchPad.obj" "Motor.obj" "MotorSimple.obj" "Nokia5110.obj" "PWM.obj" "Reflectance.obj" "SysTick.obj" "TA3InputCapture.obj" "TExaS.obj" "Tachometer.obj" "TimerA0.obj" "TimerA1.obj" "TimerA2.obj" "UART0.obj" "UART1.obj" "Ultrasound.obj" "incmain.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "ADC14.d" "AP.d" "Bump.d" "Clock.d" "CortexM.d" "EUSCIA0.d" "FIFO0.d" "FlashProgram.d" "GPIO.d" "IRDistance.d" "LPF.d" "LaunchPad.d" "Motor.d" "MotorSimple.d" "Nokia5110.d" "PWM.d" "Reflectance.d" "SysTick.d" "TA3InputCapture.d" "TExaS.d" "Tachometer.d" "TimerA0.d" "TimerA1.d" "TimerA2.d" "UART0.d" "UART1.d" "Ultrasound.d" "incmain.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find F:\TI-RSLK_GUIDE\inc\Debug\inc.hex
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project inc ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../CortexM.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="CortexM.d_raw"  "../CortexM.c"
+Finished building: "../CortexM.c"
+ 
+Building file: "../FIFO0.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FIFO0.d_raw"  "../FIFO0.c"
+Finished building: "../FIFO0.c"
+ 
+Building file: "../Clock.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Clock.d_raw"  "../Clock.c"
+Finished building: "../Clock.c"
+ 
+Building file: "../Bump.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Bump.d_raw"  "../Bump.c"
+"../Bump.c", line 77: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Bump.c", line 102: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../Bump.c"
+ 
+Building file: "../ADC14.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ADC14.d_raw"  "../ADC14.c"
+"../ADC14.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 100: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 102: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 111: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 169: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../ADC14.c", line 172: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../ADC14.c"
+ 
+Building file: "../FlashProgram.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FlashProgram.d_raw"  "../FlashProgram.c"
+"../FlashProgram.c", line 285: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 290: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 327: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 368: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 306: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 313: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 349: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 356: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 397: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../FlashProgram.c", line 481: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 555: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 615: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 444: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"../FlashProgram.c", line 520: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 530: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 549: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"../FlashProgram.c", line 581: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 590: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 609: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"../FlashProgram.c", line 671: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 716: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 743: remark #1528-D: (ULP 3.1) Detected flag polling using FLCTL_IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FlashProgram.c", line 712: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../FlashProgram.c", line 724: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../FlashProgram.c"
+ 
+Building file: "../GPIO.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="GPIO.d_raw"  "../GPIO.c"
+Finished building: "../GPIO.c"
+ 
+Building file: "../EUSCIA0.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="EUSCIA0.d_raw"  "../EUSCIA0.c"
+"../EUSCIA0.c", line 102: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../EUSCIA0.c", line 102: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../EUSCIA0.c", line 112: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../EUSCIA0.c", line 122: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../EUSCIA0.c"
+ 
+Building file: "../IRDistance.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="IRDistance.d_raw"  "../IRDistance.c"
+Finished building: "../IRDistance.c"
+ 
+Building file: "../LaunchPad.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="LaunchPad.d_raw"  "../LaunchPad.c"
+Finished building: "../LaunchPad.c"
+ 
+Building file: "../LPF.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="LPF.d_raw"  "../LPF.c"
+Finished building: "../LPF.c"
+ 
+Building file: "../MotorSimple.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="MotorSimple.d_raw"  "../MotorSimple.c"
+Finished building: "../MotorSimple.c"
+ 
+Building file: "../AP.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="AP.d_raw"  "../AP.c"
+"../AP.c", line 381: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 382: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 383: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 384: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 386: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 386: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 444: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 445: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 447: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 448: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 454: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 454: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 612: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 662: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 783: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 810: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../AP.c", line 831: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../AP.c"
+ 
+Building file: "../Motor.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Motor.d_raw"  "../Motor.c"
+Finished building: "../Motor.c"
+ 
+Building file: "../PWM.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="PWM.d_raw"  "../PWM.c"
+Finished building: "../PWM.c"
+ 
+Building file: "../Reflectance.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "../Reflectance.c"
+"../Reflectance.c", line 98: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Reflectance.c", line 137: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../Reflectance.c"
+ 
+Building file: "../Nokia5110.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Nokia5110.d_raw"  "../Nokia5110.c"
+"../Nokia5110.c", line 280: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Nokia5110.c", line 357: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 362: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 450: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 451: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 452: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 453: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 462: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 469: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 473: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 476: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 478: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../Nokia5110.c", line 496: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+Finished building: "../Nokia5110.c"
+ 
+Building file: "../TimerA1.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TimerA1.d_raw"  "../TimerA1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'TimerA1.obj' failed
+"../TimerA1.c", line 57: error #138: expression must be a modifiable lvalue
+1 error detected in the compilation of "../TimerA1.c".
+gmake: *** [TimerA1.obj] Error 1
+Building file: "../SysTick.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+"../SysTick.c", line 75: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../SysTick.c"
+ 
+Building file: "../TA3InputCapture.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TA3InputCapture.d_raw"  "../TA3InputCapture.c"
+Finished building: "../TA3InputCapture.c"
+ 
+Building file: "../TimerA0.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TimerA0.d_raw"  "../TimerA0.c"
+Finished building: "../TimerA0.c"
+ 
+Building file: "../Tachometer.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Tachometer.d_raw"  "../Tachometer.c"
+Finished building: "../Tachometer.c"
+ 
+Building file: "../incmain.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="incmain.d_raw"  "../incmain.c"
+Finished building: "../incmain.c"
+ 
+Building file: "../TExaS.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TExaS.d_raw"  "../TExaS.c"
+"../TExaS.c", line 121: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 280: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 289: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 411: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../TExaS.c", line 453: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../TExaS.c"
+ 
+Building file: "../TimerA2.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TimerA2.d_raw"  "../TimerA2.c"
+Finished building: "../TimerA2.c"
+ 
+Building file: "../startup_msp432p401r_ccs.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_msp432p401r_ccs.d_raw"  "../startup_msp432p401r_ccs.c"
+Finished building: "../startup_msp432p401r_ccs.c"
+ 
+Building file: "../Ultrasound.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ultrasound.d_raw"  "../Ultrasound.c"
+Finished building: "../Ultrasound.c"
+ 
+Building file: "../UART1.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="UART1.d_raw"  "../UART1.c"
+"../UART1.c", line 136: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../UART1.c", line 136: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../UART1.c", line 145: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../UART1.c", line 173: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../UART1.c"
+ 
+Building file: "../UART0.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="UART0.d_raw"  "../UART0.c"
+"../UART0.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../UART0.c", line 100: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../UART0.c"
+ 
+Building file: "../system_msp432p401r.c"
+Invoking: MSP432 Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/inc" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+"../system_msp432p401r.c", line 112: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 160: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 193: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../system_msp432p401r.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/ti_009/ccs/ccs_base/arm/include" --include_path="F:/ti_009/ccs/ccs_base/arm/include/CMSIS" --include_path="F:/TI-RSLK_GUIDE/TI_RSLK_GUIDE" --include_path="F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 97: remark #1542-D: (ULP 12.1) Detected memcpy() and recommend using DMA instead if greater than 100 words being transferred
+"../main.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 311: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 347: warning #225-D: function "Bump_Read11" declared implicitly
+"../main.c", line 347: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 368: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 369: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 380: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 381: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 383: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../main.c", line 388: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 389: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "TI_RSLK_GUIDE.out"
+Invoking: ARM Linker
+"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TI_RSLK_GUIDE.map" --heap_size=1024 --stack_size=512 -i"F:/ti_009/ccs/ccs_base/arm/include" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/lib" -i"F:/ti_009/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TI_RSLK_GUIDE_linkInfo.xml" --rom_model -o "TI_RSLK_GUIDE.out" "./Bump.obj" "./Clock.obj" "./CortexM.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./Reflectance.obj" "./SysTick.obj" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "F:/TI-RSLK_GUIDE/inc/msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TI_RSLK_GUIDE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TI_RSLK_GUIDE ****
+
+"F:\\ti_009\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TI_RSLK_GUIDE.out' is up to date.
+
+**** Build Finished ****

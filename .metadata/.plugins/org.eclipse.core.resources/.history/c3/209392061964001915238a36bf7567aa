@@ -1,0 +1,68 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+F:/TI-RSLK_GUIDE/inc/Bump.c \
+F:/TI-RSLK_GUIDE/inc/Clock.c \
+F:/TI-RSLK_GUIDE/inc/CortexM.c \
+F:/TI-RSLK_GUIDE/inc/LaunchPad.c \
+F:/TI-RSLK_GUIDE/inc/Motor.c \
+F:/TI-RSLK_GUIDE/inc/PWM.c \
+F:/TI-RSLK_GUIDE/inc/Reflectance.c \
+../main.c 
+
+C_DEPS += \
+./Bump.d \
+./Clock.d \
+./CortexM.d \
+./LaunchPad.d \
+./Motor.d \
+./PWM.d \
+./Reflectance.d \
+./main.d 
+
+OBJS += \
+./Bump.obj \
+./Clock.obj \
+./CortexM.obj \
+./LaunchPad.obj \
+./Motor.obj \
+./PWM.obj \
+./Reflectance.obj \
+./main.obj 
+
+OBJS__QUOTED += \
+"Bump.obj" \
+"Clock.obj" \
+"CortexM.obj" \
+"LaunchPad.obj" \
+"Motor.obj" \
+"PWM.obj" \
+"Reflectance.obj" \
+"main.obj" 
+
+C_DEPS__QUOTED += \
+"Bump.d" \
+"Clock.d" \
+"CortexM.d" \
+"LaunchPad.d" \
+"Motor.d" \
+"PWM.d" \
+"Reflectance.d" \
+"main.d" 
+
+C_SRCS__QUOTED += \
+"F:/TI-RSLK_GUIDE/inc/Bump.c" \
+"F:/TI-RSLK_GUIDE/inc/Clock.c" \
+"F:/TI-RSLK_GUIDE/inc/CortexM.c" \
+"F:/TI-RSLK_GUIDE/inc/LaunchPad.c" \
+"F:/TI-RSLK_GUIDE/inc/Motor.c" \
+"F:/TI-RSLK_GUIDE/inc/PWM.c" \
+"F:/TI-RSLK_GUIDE/inc/Reflectance.c" \
+"../main.c" 
+
+
